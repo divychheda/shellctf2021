@@ -1,0 +1,14 @@
+service ctf
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = root
+    type        = UNLISTED
+    port        = 9999
+    bind        = 0.0.0.0
+    server          = /usr/bin/python3
+    server_args     = /home/ctf/encrypt.py
+    banner_fail = /etc/banner_fails
+}

@@ -1,0 +1,24 @@
+vignere
+encoder
+easyRSA
+XOR_enc
+transpositional
+subsi
+cjk
+rc4
+
+
+web 
+
+cookies : 8885
+anonym : 8887
+login : 8889
+jwt : 9334
+
+crypto 
+
+aes-ecb : 8885 
+
+punyfact : nc 34.93.69.139 8889
+
+powerrsa : nc 34.93.69.139 8887
